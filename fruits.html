@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Browse our collection of fresh, juicy, and seasonal fruits. Good for taste and health.">
+    <meta name="keywords" content="fruits, vegetables, healthy food, nutrition, organic produce">
+    <meta name="author" content="Fruitables By Syed Mehdi">
+    <!-- SEO Meta Tags -->
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="product.group">
+    <meta property="og:title" content="Fruits Shop-Tasty & Healthy Fruits">
+    <meta property="og:description"
+        content="Delicious, nutrient-rich fruits to brighten your day and boost your health.">
+    <meta property="og:image" content="https://fresh-fruitables.netlify.app/images/preview/preview.png">
+    <meta property="og:url" content="https://fresh-fruitables.netlify.app/fruits">
+    <!-- Open Graph -->
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fruits Shop-Tasty & Healthy Fruits">
+    <meta name="twitter:description" content="From apples to mangoes — enjoy nature’s sweet gift.">
+    <meta property="og:image" content="https://fresh-fruitables.netlify.app/images/preview/preview.png">
+    <!-- Twitter -->
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://fresh-fruitables.netlify.app/fruits">
+    <!-- Canonical Link -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="fruits.css" />
+    <link rel="stylesheet" href="fruits mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylesheets -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/favicon icon/favicon.png" type="image/x-icon">
+    <!-- Favicon -->
+
+    <!-- Title -->
+    <title>Fruits Shop-Tasty & Healthy Fruits</title>
+    <!-- Title -->
+</head>
+
+<body>
+
+    <!-- Preloader Starts here -->
+    <div id="preloader">
+        <div class="dots-loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Preloader Ends here -->
+
+    <!-- Main Start here -->
+    <div id="main-page">
+
+        <!-- NavBar starts here  -->
+        <nav id="navbar" class="responsive-nav">
+
+            <div class="nav-left">
+                <a href="index.html">
+                    <div class="logo">Fruit</div>
+                </a>
+                <a href="index.html"><span>ables</span></a>
+            </div>
+
+            <div class="middle-nav">
+                <div class="nav-right">
+                    <ul class="nav-list" id="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="benefits.html">Benefits</a></li>
+                        <li id="drop-down">
+                            <a href="#">Products <i class="fa-solid fa-angle-down drop-down-icon"></i></a>
+                            <ul class="drop-down-menu">
+                                <li><a href="fruits.html">Fruits</a></li>
+                                <li><a href="vegetable.html">Vegetables</a></li>
+                            </ul>
+                        </li>
+                        <li id="contact-link"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div id="toggle-btn">
+                    <label for="checkbox" id="toggle-label">
+                        <input type="checkbox" id="checkbox" />
+                        <i class="fa-solid fa-sun theme-icon"></i>
+                    </label>
+                </div>
+            </div>
+
+            <div id="hamburger">
+                <div class="responsive-icon">
+                    <i class="fa-solid fa-bars .responsive-icon-nav"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar ends here -->
+
+
+        <!-- Hero Section starts here  -->
+        <section id="hero">
+            <div class="hero-container">
+                <div class="hero-heading">
+                    <h2>Fruits</h2>
+                </div>
+                <ul class="hero-links">
+                    <li>
+                        <a href="index.html">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    /
+                    <li>
+                        <a>
+                            <p class="active-page">Products</p>
+                        </a>
+                    </li>
+                    /
+                    <li>
+                        <a>
+                            <p class="active-page">Fruits</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Hero Section ends here  -->
+
+
+        <!-- Fruit Section starts here -->
+        <section id="fruits">
+            <div class="fruit-container">
+                <!-- upper food part start -->
+                <div class="upper-food-part">
+                    <div class="food-upper-part-heading">
+                        <h2>Fresh Fruits Shop</h2>
+                    </div>
+                    <!-- upper food boxes start -->
+                    <div class="upper-food-part-boxes">
+                        <!-- search box start -->
+                        <div class="search-text">
+                            <input type="search" id="search" placeholder="Keywords">
+                            <button class="search-btn"><i class="fa-solid fa-search"></i></button>
+                        </div>
+                        <!-- search box end -->
+                        <!-- select filter start -->
+                        <div class="select-filter">
+                            <label for="filter">Default Sorting:</label>
+                            <select name="select" id="select">
+                                <option value="opt-1">Default</option>
+                                <option value="opt-2">Popular</option>
+                                <option value="opt-3">Juicy</option>
+                                <option value="opt-4">Sweet</option>
+                                <option value="opt-5">Sour</option>
+                            </select>
+                        </div>
+                        <!-- select filter end -->
+                    </div>
+                    <!-- upper food boxes end -->
+                </div>
+                <!-- upper food part end -->
+
+                <!-- imp food part start -->
+                <div class="imp-food-part">
+                    <!-- sidebar start -->
+                    <div class="middle-food-part">
+                        <div class="first-middle-part">
+                            <h3>Categories</h3>
+                            <!-- first  -->
+                            <div class="count-items">
+                                <a href="">
+                                    <p>Apples</p>
+                                </a>
+                                <span>(129)</span>
+                            </div>
+                            <!-- second -->
+                            <div class="count-items">
+                                <a href="">
+                                    <p>Oranges</p>
+                                </a>
+                                <span>(162)</span>
+                            </div>
+                            <!-- third -->
+                            <div class="count-items">
+                                <a href="">
+                                    <p>Bananas</p>
+                                </a>
+                                <span>(174)</span>
+                            </div>
+                            <!-- fourth -->
+                            <div class="count-items">
+                                <a href="">
+                                    <p>Mangoes</p>
+                                </a>
+                                <span>(145)</span>
+                            </div>
+                            <!-- fifth -->
+                            <div class="count-items">
+                                <a href="">
+                                    <p>Guavas</p>
+                                </a>
+                                <span>(79)</span>
+                            </div>
+                        </div>
+                        <!-- first middle part end -->
+                        <div class="heading-middle-part">
+                            <h3>Quantity</h3>
+                            <div class="range">
+                                <input type="range" name="range" id="range" min="0" max="500" value="0">
+                                <output id="output">0</output>
+                            </div>
+                        </div>
+                        <!-- second middle part end -->
+                        <div class="heading-middle-part">
+                            <h3>Additional</h3>
+                            <div class="radio-group">
+                                <!-- first -->
+                                <label for="custom-radio">
+                                    <input type="radio" name="radio" value="option1">
+                                    <span class="radio-btn"></span>
+                                    Organic
+                                </label>
+                                <!-- second -->
+                                <label for="custom-radio">
+                                    <input type="radio" name="radio" value="option2">
+                                    <span class="radio-btn"></span>
+                                    Fresh
+                                </label>
+                                <!-- third -->
+                                <label for="custom-radio">
+                                    <input type="radio" name="radio" value="option3">
+                                    <span class="radio-btn"></span>
+                                    Sales
+                                </label>
+                                <!-- fourth -->
+                                <label for="custom-radio">
+                                    <input type="radio" name="radio" value="option4">
+                                    <span class="radio-btn"></span>
+                                    Discount
+                                </label>
+                                <!-- fifth -->
+                                <label for="custom-radio">
+                                    <input type="radio" name="radio" value="option5">
+                                    <span class="radio-btn"></span>
+                                    Seasonal
+                                </label>
+                            </div>
+                        </div>
+                        <!-- third middle part end -->
+                        <div class="heading-middle-part">
+                            <h3>Featured Products</h3>
+                            <!-- first  -->
+                            <div class="first-featured-product">
+                                <div class="featured-image">
+                                    <img src="/images/fruits & vegetables producs/feature-1-product.png" alt="">
+                                </div>
+                                <div class="featured-content">
+                                    <h4 class="featured-sub-heading">Apple</h4>
+                                    <div class="featured-stars">
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star dark"></i>
+                                    </div>
+                                    <div class="featured-rates">
+                                        <h4 class="first-rate">$4.99</h4>
+                                        <h4 class="second-rate">$8.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- second -->
+                            <div class="first-featured-product second">
+                                <div class="featured-image">
+                                    <img src="/images/fruits & vegetables producs/feature-2-product.png" alt="">
+                                </div>
+                                <div class="featured-content">
+                                    <h4 class="featured-sub-heading">Strawberry</h4>
+                                    <div class="featured-stars">
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star dark"></i>
+                                    </div>
+                                    <div class="featured-rates">
+                                        <h4 class="first-rate">$4.99</h4>
+                                        <h4 class="second-rate">$8.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- third -->
+                            <div class="first-featured-product third">
+                                <div class="featured-image">
+                                    <img src="/images/fruits & vegetables producs/feature-3-product.png" alt="">
+                                </div>
+                                <div class="featured-content">
+                                    <h4 class="featured-sub-heading">Bronchi</h4>
+                                    <div class="featured-stars">
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star green"></i>
+                                        <i class="fa-solid fa-star dark"></i>
+                                    </div>
+                                    <div class="featured-rates">
+                                        <h4 class="first-rate">$4.99</h4>
+                                        <h4 class="second-rate">$8.99</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- fourth middle part end -->
+                        <div class="heading-middle-part">
+                            <div class="featured-button">
+                                <a href="vegetable.html"><button>View More</button></a>
+                            </div>
+                        </div>
+                        <!-- fifth middle part end -->
+                        <div class="heading-middle-part">
+                            <div class="fruit-banner">
+                                <img src="/images/fruits & vegetables producs/banner-fruits.jpg" alt="">
+                                <div class="banner-text">
+                                    <span class="text-1">Fresh</span>
+                                    <span class="text-2">Fruits</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- sixth middle part end -->
+                    </div>
+                    <!-- sidebar end -->
+
+                    <!-- lower food part start -->
+                    <div class="lower-food-part">
+                        <!-- inside product start -->
+                        <div class="inside-product">
+                            <!-- product cards part start -->
+                            <div id="product-cards-part">
+                                <!-- product boxes start -->
+                                <!-- first -->
+                                <div class="product-boxes" id="orange" data-category="juicy popular sour orange">
+                                    <img src="/images/fruits & vegetables producs/fruite-item-1.jpg" class="product-img"
+                                        alt="">
+                                    <div class="product-label">Fruits</div>
+                                    <h4 class="product-heading">Orange</h4>
+                                    <p class="product-para">Fresh & Juicy Oranges 🍊</p>
+                                    <p class="product-para">Packed with Vitamin C</p>
+                                    <p class="product-para">Perfect for a Healthy Boost!</p>
+                                    <p class="product-price">$4.99/Kg</p>
+                                    <a href="#" class="product-link">
+                                        <button class="product-btn">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p class="shopping-text">Add to cart</p>
+                                        </button>
+                                    </a>
+                                </div>
+                                <!-- second -->
+                                <div class="product-boxes" id="banana" data-category="sweet popular banana">
+                                    <img src="/images/fruits & vegetables producs/fruite-item-2.jpg" class="product-img"
+                                        alt="">
+                                    <div class="product-label">Fruits</div>
+                                    <h4 class="product-heading">Banana</h4>
+                                    <p class="product-para">Fresh & Sweet Bananas 🍌</p>
+                                    <p class="product-para">Rich in Potassium & Fiber</p>
+                                    <p class="product-para">Perfect for Energy Boost!</p>
+                                    <p class="product-price">$4.99/Kg</p>
+                                    <a href="#" class="product-link">
+                                        <button class="product-btn">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p class="shopping-text">Add to cart</p>
+                                        </button>
+                                    </a>
+                                </div>
+                                <!-- third -->
+                                <div class="product-boxes" id="mango" data-category="juicy sweet popular mango">
+                                    <img src="/images/fruits & vegetables producs/fruite-item-3.png" class="product-img"
+                                        alt="">
+                                    <div class="product-label">Fruits</div>
+                                    <h4 class="product-heading">Mango</h4>
+                                    <p class="product-para">Delicious & Juicy Mangoes 🥭</p>
+                                    <p class="product-para">Rich in Vitamins & Antioxidants</p>
+                                    <p class="product-para">Naturally Sweet & Fresh</p>
+                                    <p class="product-price">$4.99/Kg</p>
+                                    <a href="#" class="product-link">
+                                        <button class="product-btn">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p class="shopping-text">Add to cart</p>
+                                        </button>
+                                    </a>
+                                </div>
+                                <!-- fourth -->
+                                <div class="product-boxes" id="apple" data-category="sweet popular juicy apple">
+                                    <img src="/images/fruits & vegetables producs/fruite-item-4.jpg" class="product-img"
+                                        alt="">
+                                    <div class="product-label">Fruits</div>
+                                    <h4 class="product-heading">Apple</h4>
+                                    <p class="product-para">Crisp & Juicy Apples 🍏🍎</p>
+                                    <p class="product-para">Rich in Fiber & Nutrients</p>
+                                    <p class="product-para">A Healthy Daily Bite!</p>
+                                    <p class="product-price">$4.99/Kg</p>
+                                    <a href="#" class="product-link">
+                                        <button class="product-btn">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p class="shopping-text">Add to cart</p>
+                                        </button>
+                                    </a>
+                                </div>
+                                <!-- fifth -->
+                                <div class="product-boxes" id="grapes" data-category="juicy popular grapes">
+                                    <img src="/images/fruits & vegetables producs/fruite-item-5.png" class="product-img"
+                                        alt="">
+                                    <div class="product-label">Fruits</div>
+                                    <h4 class="product-heading">Grapes</h4>
+                                    <p class="product-para">Fresh & Juicy Grapes 🍇</p>
+                                    <p class="product-para">Loaded with Antioxidants</p>
+                                    <p class="product-para">A Sweet & Healthy Treat!</p>
+                                    <p class="product-price">$4.99/Kg</p>
+                                    <a href="#" class="product-link">
+                                        <button class="product-btn">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p class="shopping-text">Add to cart</p>
+                                        </button>
+                                    </a>
+                                </div>
+                                <!-- sixth -->
+                                <div class="product-boxes" id="apricot" data-category="sour apricot">
+                                    <img src="/images/fruits & vegetables producs/fruite-item-6.jpg" class="product-img"
+                                        alt="">
+                                    <div class="product-label">Fruits</div>
+                                    <h4 class="product-heading">Apricot</h4>
+                                    <p class="product-para">Sweet & Tasty Apricots 🍑</p>
+                                    <p class="product-para">Rich in Vitamins & Fiber</p>
+                                    <p class="product-para">A Perfect Healthy Snack!</p>
+                                    <p class="product-price">$4.99/Kg</p>
+                                    <a href="#" class="product-link">
+                                        <button class="product-btn">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p class="shopping-text">Add to cart</p>
+                                        </button>
+                                    </a>
+                                </div>
+                                <!-- seventh -->
+                                <div class="product-boxes" id="raspberry" data-category="sour raspberry">
+                                    <img src="/images/fruits & vegetables producs/fruite-item-7.jpg "
+                                        class="product-img" alt="">
+                                    <div class="product-label">Fruits</div>
+                                    <h4 class="product-heading">Raspberries</h4>
+                                    <p class="product-para">Fresh & Juicy Raspberries 🍓</p>
+                                    <p class="product-para">Packed with Antioxidant Fiber</p>
+                                    <p class="product-para">A Delicious Healthy Treat!</p>
+                                    <p class="product-price">$4.99/Kg</p>
+                                    <a href="#" class="product-link">
+                                        <button class="product-btn">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p class="shopping-text">Add to cart</p>
+                                        </button>
+                                    </a>
+                                </div>
+                                <!-- eighth -->
+                                <div class="product-boxes" id="guava" data-category="popular sweet guava">
+                                    <img src="/images/fruits & vegetables producs/fruite-item-8.png "
+                                        class="product-img" alt="">
+                                    <div class="product-label">Fruits</div>
+                                    <h4 class="product-heading">Guava</h4>
+                                    <p class="product-para">Fresh & Nutritious Guava 🍐</p>
+                                    <p class="product-para">Rich in Vitamin C & Fiber</p>
+                                    <p class="product-para">A Perfect Healthy Snack!</p>
+                                    <p class="product-price">$4.99/Kg</p>
+                                    <a href="#" class="product-link">
+                                        <button class="product-btn">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p class="shopping-text">Add to cart</p>
+                                        </button>
+                                    </a>
+                                </div>
+                                <!-- nineth -->
+                                <div class="product-boxes" id="cherry" data-category="juicy sweet cherry">
+                                    <img src="/images/fruits & vegetables producs/fruite-item-9.png "
+                                        class="product-img" alt="">
+                                    <div class="product-label">Fruits</div>
+                                    <h4 class="product-heading">Cherry</h4>
+                                    <p class="product-para">Sweet & Juicy Cherries 🍒</p>
+                                    <p class="product-para">Rich in Antioxidants & Vitamins</p>
+                                    <p class="product-para">A Perfect Summer Treat!</p>
+                                    <p class="product-price">$4.99/Kg</p>
+                                    <a href="#" class="product-link">
+                                        <button class="product-btn">
+                                            <i class="fa-solid fa-bag-shopping"></i>
+                                            <p class="shopping-text">Add to cart</p>
+                                        </button>
+                                    </a>
+                                </div>
+                                <!-- product boxes end  -->
+                            </div>
+                            <!-- product card parts end -->
+                            <!-- inside child start -->
+                            <div class="inside-child">
+                                <!-- no result start -->
+                                <div class="no-match" id="no-match">
+                                    <h3 id="no-result"></h3>
+                                </div>
+                                <!-- no result end -->
+                                <!-- paggination buttons start -->
+                                <div class="paggination-btns">
+                                    <button class="btn-pagginations pagg-1"><i
+                                            class="fa-solid fa-angles-left"></i></button>
+                                    <button class="btn-pagginations">1</button>
+                                    <button class="btn-pagginations">2</button>
+                                    <button class="btn-pagginations">3</button>
+                                    <button class="btn-pagginations">4</button>
+                                    <button class="btn-pagginations">5</button>
+                                    <button class="btn-pagginations">6</button>
+                                    <button class="btn-pagginations pagg-8"><i
+                                            class="fa-solid fa-angles-right"></i></button>
+                                </div>
+                                <!-- paggination buttons end -->
+                            </div>
+                            <!-- inside child end -->
+                        </div>
+                        <!-- inside-product end -->
+                    </div>
+                    <!-- lower food part end -->
+                </div>
+                <!-- imp food part end-->
+            </div>
+            <!-- fruit container end -->
+        </section>
+        <!-- Fruit Section ends here -->
+
+        <!-- Subscription Section starts here -->
+        <section id="subscription">
+            <div class="subscription-container">
+                <div class="logo-part">
+                    <a href="index.html">
+                        <div class="logo">Fruit</div>
+                    </a>
+                    <a href="index.html"><span>ables</span></a>
+                    <a href="">
+                        <div class="logo-para">Fresh Products</div>
+                    </a>
+                </div>
+                <div class="input-part">
+                    <form name="submit-to-google-sheet">
+                        <input type="email" name="Email" id="subscription-email" placeholder="Email" required>
+                        <button type="submit" class="subscription-btn">Subscribe Now</button>
+                    </form>
+                    <span id="subscription-text"></span>
+                </div>
+                <div class="social-media-icons">
+                    <a href="https://www.facebook.com" target="_blank" title="Facebook"><button
+                            class="social-media-btns"><i class="fa-brands fa-facebook-f"></i></button></a>
+                    <a href="https://www.instagram.com" target="_blank" title="Instagram"><button
+                            class="social-media-btns"><i class="fa-brands fa-instagram"></i></button></a>
+                    <a href="https://www.twitter.com" target="_blank" title="Twitter"><button
+                            class="social-media-btns"><i class="fa-brands fa-twitter"></i></button></a>
+                    <a href="https://www.linkedin.com" target="_blank" title="Linkedin"><button
+                            class="social-media-btns"><i class="fa-brands fa-linkedin-in"></i></button></a>
+                </div>
+            </div>
+        </section>
+        <!-- Subscription Section ends here -->
+
+
+        <!-- Scroll To Top Button starts here  -->
+        <div id="button">
+            <button id="scroll-btn"><i class="fa-solid fa-arrow-up"></i></button>
+        </div>
+        <!-- Scroll To Top Button ends here  -->
+
+
+        <!-- Footer Section starts here -->
+        <footer id="footer">
+            <div class="footer-left">
+                <p>©copyright. All Rights Reserved</p>
+                <p>Designed & Developed By <a href="https://syeddeveloper.netlify.app/" target="_blank">Syed Mehdi</p>
+                </a>
+            </div>
+
+            <div class="footer-right">
+                <ul class="footer-list" id="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="logout-btn">
+                <button type="button" class="logout" id="logout">
+                    <img src="/images/logout image/logout.png" alt="">
+                    <span class="logout-btn-text">Logout</span>
+                </button>
+            </div>
+        </footer>
+        <!-- Footer Section ends here -->
+    </div>
+    <!-- Main Ends here -->
+
+    <script src="fruits.js" defer></script>
+</body>
+
+</html>

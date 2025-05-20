@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- No Follow -->
+    <meta name="robots" content="noindex, nofollow">
+    <!-- No Follow -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/signin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylesheets -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/favicon icon/favicon.png" type="image/x-icon">
+    <!-- Favicon -->
+
+    <!-- Title -->
+    <title>Login | Access Your Fruits & Veggies Account</title>
+    <!-- Title -->
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="dots-loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <main class="container" id="main-content">
+        <div id="form-box">
+            <h2 class="heading-1">Welcome Back</h2>
+            <h2 class="heading">Sign In</h2>
+            <div class="line"></div>
+            <div class="form-group">
+
+                <form action="#" id="form">
+
+                    <div class="input-field email-field">
+                        <i class="fa-solid fa-at"></i>
+                        <input type="email" class="email" id="email-box" name="email" autocomplete="off"
+                            placeholder="Email">
+                        <p class="email-error"></p>
+                    </div>
+
+                    <div class="input-field password-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" class="password" id="password-box" autocomplete="off" name="password"
+                            placeholder="Password">
+                        <div class="icons">
+                            <i class="fa-solid fa-eye icon" id="password-icon-1"></i>
+                            <p class="password-error"></p>
+                        </div>
+                    </div>
+
+                    <div class="input-field confirm-password-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" class="password" id="password-box-1" autocomplete="off" name="password"
+                            placeholder="Confirm Password">
+                        <div class="icons">
+                            <i class="fa-solid fa-eye icon" id="password-icon-2"></i>
+                            <p class="confirm-password-error"></p>
+                        </div>
+                    </div>
+
+                    <p class="first-para"><span class="text">Forgot Password?</span> <a id="forgot-password">Click
+                            here</a></p>
+                    <!-- text para 1 end here -->
+
+                    <p class="second-para"><span class="second-text">Don't have an account?</span> <a
+                            href="registration.html">Sign Up</a></span></p>
+                    <!-- text para 2 end here -->
+
+
+                    <div class="btn-field">
+                        <button type="submit" class="btn">Sign In</button>
+                    </div>
+                    <!-- button field end here -->
+
+                </form>
+                <!-- form end here -->
+
+            </div>
+            <!-- form group end here -->
+
+        </div>
+        <!-- form box end here -->
+
+        <div class="successful-notification">
+            <img src="/images/tick image/right.png" alt="">
+
+            <h2>Welcome Back!</h2>
+            <p>You've Successfully Logged In. Thanks!</p>
+            <button type="button" class="successful-button">Ok</button>
+        </div>
+        <!-- success notification end here -->
+
+        <div class="invalid-notification">
+            <img src="/images/tick image/wrong.png" alt="">
+
+            <h2>Sorry!</h2>
+            <p>Invalid Email & Password. Please Try Again!</p>
+            <button type="button" class="invalid-button">Ok</button>
+        </div>
+        <!-- success notification end here -->
+
+        <div class="otp-send-notification step-1">
+
+            <h2>OTP Verification</h2>
+            <br>
+            <h4>Enter your email address</h4>
+            <p id="verification-para">You will receive an email with an OTP</p>
+            <div class="otp-verification-email">
+                <input type="email" class="otp-email" id="otp-email" name="otp">
+                <p class="otp-email-error"></p>
+            </div>
+            <button type="button" class="successful-button next-button disable-btn">Next -></button>
+        </div>
+        <!-- otp send email notification end here -->
+
+        <div class="otp-send-notification step-2">
+
+            <h2>OTP Verification</h2>
+            <br>
+            <h4>Enter One Time Password</h4>
+            <p class="first-confirm-para">An OTP has been sent to your current email</p>
+            <p class="second-confirm-para">Enter the 4 digit code we've sent you via email</p>
+            <div class="otp-verification-email group">
+                <input type="number">
+                <input type="number">
+                <input type="number">
+                <input type="number">
+            </div>
+            <p class="confirm-para">Didn't receive the code?<a href="#" id="confirm-para"> Try again</a></p>
+            <button type="button" class="successful-button verify-button disable-btn">Verify -></button>
+        </div>
+        <!-- otp verification email notification end here-->
+
+
+        <div class="otp-send-notification step-3">
+
+            <h2>Congratulations</h2>
+            <p id="verification-para">Your OTP verification has been successfully completed!</p>
+            <img src="/images/tick image/verify.png" alt="">
+            <p id="verification-complete">Now you can reset your password</p>
+            <button type="button" class="successful-button reset-button">Reset Password -></button>
+        </div>
+        <!-- otp verification notification end here -->
+
+        <div class="otp-send-notification step-6">
+
+            <h2>OTP Verification Failed</h2>
+            <img src="/images/tick image/wrong.png" alt="">
+            <p id="verification-failed">OTP does not match</p>
+            <button type="button" class="successful-button invalid-otp">Try Again -></button>
+        </div>
+        <!-- Invalid otp verification notification end here -->
+
+
+        <div class="otp-send-notification step-4">
+
+            <form action="#" id="password-reset-form">
+                <h2>Reset Password</h2>
+                <br>
+                <p class="password-reset-text">Enter your new password</p>
+                <div class="otp-verification-email password-reset-field">
+                    <input type="password" class="password-reset" id="password-reset" name="password-reset"
+                        placeholder="New Password">
+                    <i class="fa-solid fa-eye" id="password-icon-3"></i>
+                </div>
+                <p id="password-reset-error"></p>
+
+                <p class="password-reset-para">Password must contains:</p>
+                <li class="password-requirments">Upper & Lower Case Letters</li>
+                <li class="password-requirments">Numbers</li>
+                <li class="password-requirments">Special Characters</li>
+                <button type="submit" class="successful-button confirm-button">Done -></button>
+            </form>
+        </div>
+        <!-- reset password end here-->
+
+        <div class="otp-send-notification step-5">
+
+            <h2>Congratulations</h2>
+            <p id="end-text">Your password has been successfully reset!</p>
+            <p id="end-para">Go to <a href="signin.html" id="last-para">login page</a></p>
+        </div>
+        <!-- otp verification notification end here -->
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="/signin.js"></script>
+</body>
+
+</html>

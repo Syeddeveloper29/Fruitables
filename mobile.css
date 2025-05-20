@@ -1,0 +1,1483 @@
+:root {
+    --bg-body: #141414;
+    --bg-primary: #000000;
+    --text-primary: #f1f0f0;
+    --red-clr: #e71717;
+    --hover-clr: #b60f0f;
+    --content-clr: #ce3e3e;
+}
+
+@media only screen and (max-width: 1219px) {
+
+    /* fruit product start here */
+    #product-cards-part {
+        padding: 0 1rem;
+    }
+
+    #product-cards-part .product-boxes {
+        max-width: 22rem;
+        min-height: 18rem;
+        width: 100%;
+    }
+
+    /* fruit product end here */
+}
+
+@media only screen and (max-width: 1196px) {
+
+    /* footer start here */
+    #footer {
+        flex-direction: column;
+        height: auto;
+        gap: 1.2rem;
+        padding: 0.5rem 0;
+
+    }
+
+    #footer>div:nth-child(1) {
+        order: 2;
+    }
+
+    #footer>div:nth-child(3) {
+        order: 3;
+    }
+
+    .footer-left {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-left p {
+        text-align: center;
+    }
+
+    .footer-right {
+        margin: 0 3rem;
+    }
+
+    .footer-list>li {
+        display: flex;
+        margin: 0rem 0.6rem;
+
+    }
+
+    .logout-btn {
+        margin-right: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* footer end here */
+}
+
+@media only screen and (max-width: 1178px) {
+
+    /* navbar start here */
+    .nav-right {
+        margin-right: 7rem;
+    }
+
+    /* navbar end here */
+}
+
+@media only screen and (max-width: 1142px) {
+
+    /* discount start here */
+    #discount-container {
+        padding: 0 1rem;
+    }
+
+    /* discount end here */
+
+    /* subscription start here */
+    .subscription-container .logo-part {
+        margin: 0 1rem;
+    }
+
+    .input-part input {
+        width: 26rem;
+    }
+
+    /* subscription end here */
+}
+
+@media only screen and (max-width: 1100px) {
+
+    /* navbar start here */
+    .nav-right {
+        margin-right: 5rem;
+    }
+
+    /* navbar end here */
+
+    /* image slider start here */
+    #section-para {
+        margin: 4rem 4rem 0 4rem;
+    }
+
+    /* image slider end here */
+}
+
+@media only screen and (max-width: 1045px) {
+
+    /* navbar start here */
+    #navbar {
+        display: flex;
+        height: auto;
+        max-height: 4.5rem;
+        text-align: center;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: auto;
+        padding: 1rem 0;
+        overflow: hidden;
+        transition: max-height 0.9s linear;
+    }
+
+    #navbar.nav-open {
+        max-height: 50rem;
+    }
+
+    .nav-left {
+        margin-left: 2rem;
+        text-align: center;
+        margin-top: 0.2rem;
+    }
+
+    .middle-nav {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .nav-right {
+        align-items: start;
+        margin: 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: start;
+    }
+
+    .nav-list>li {
+        margin: 0rem 2rem;
+    }
+
+    #drop-down {
+        margin-top: 0.3rem;
+    }
+
+    .drop-down-menu {
+        top: 9rem;
+        left: 1.9rem;
+        width: 100%;
+        width: 94vw;
+        text-align: start;
+        border-radius: 0.4rem;
+    }
+
+    #contact-link {
+        transition: all 0.4s linear;
+    }
+
+    #toggle-btn {
+        margin-left: 2rem;
+    }
+
+    #hamburger {
+        position: absolute;
+        right: -1rem;
+        top: 1.7rem;
+        display: block;
+        color: var(--red-clr);
+    }
+
+    /* navbar end here */
+
+    /* image slider start here */
+    #slider-container {
+        display: block;
+    }
+
+    #section-para {
+        margin: 3rem 3rem 0 3rem;
+        text-align: justify;
+    }
+
+    #right-section {
+        width: 100%;
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+
+    /* image slider end here */
+}
+
+@media only screen and (max-width: 1024px) {
+
+    /* vegetable product start here */
+    .product-frame {
+        padding: 1rem 4rem 0 4rem;
+    }
+
+    #vegetable-product-cards-part .product-boxes {
+        width: calc((100% - 3rem)/3);
+    }
+
+    .product-boxes p {
+        padding: 0 0.5rem;
+    }
+
+    /* vegetable product end here */
+
+    /* listing start here */
+    #listing {
+        margin: 6rem 10rem 0 10rem;
+    }
+
+    /* listing end here */
+
+    /* testimonals start here */
+    .testimonal-slider-portion {
+        margin-right: 4rem;
+    }
+
+    .testimonal-frame .testimonal-boxes {
+        width: calc((100% - 2.5rem) / 2);
+    }
+
+    .testimonal-boxes .review-line {
+        width: 24.7rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: 4.5rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 1020px) {
+
+    /* banner start here */
+    .banner-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .banner-container .left-banner-part {
+        width: 100%;
+        margin-top: 3rem;
+        padding: 0 3rem;
+    }
+
+    .right-banner-part {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .right-banner-part img {
+        max-width: 37rem;
+        min-width: 17rem;
+        width: 100%;
+    }
+
+    /* banner end here */
+
+    /* listing start here */
+    #listing {
+        margin: 6rem 5rem 0 5rem;
+    }
+
+    /* listing end here */
+}
+
+@media only screen and (max-width: 968px) {
+
+    /* home start here */
+    .main-heading {
+        font-size: 1.2rem;
+    }
+
+    /* home end here */
+}
+
+@media only screen and (max-width: 959px) {
+
+    /* best product start here */
+    .best-product-seller-lower-part .best-seller-product-cards {
+        max-width: 43rem;
+        min-width: 17.5rem;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .best-seller-product-cards .best-seller-product-imgs {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    /* best product end here */
+}
+
+@media only screen and (max-width: 950px) {
+
+    /* subscription start here */
+    .subscription-container {
+        flex-direction: column;
+        gap: 1.3rem;
+        justify-content: start;
+        align-items: start;
+        padding: 0 5rem 0 3rem;
+    }
+
+    .input-part {
+        width: 100%;
+    }
+
+    .input-part form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .input-part input {
+        flex: 1;
+        min-width: 16.25rem;
+        width: 100%;
+    }
+
+    .social-media-icons {
+        margin-left: auto;
+    }
+
+    /* subscription end here */
+}
+
+@media only screen and (max-width: 912px) {
+
+    /* vegetable product start here */
+    .slider-button-portion {
+        margin-right: 6rem;
+    }
+
+    #vegetable-product-cards-part .product-boxes {
+        width: calc((100% - 3rem)/2);
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-slider-portion {
+        margin-right: 4rem;
+    }
+
+    .testimonal-frame .testimonal-boxes {
+        width: calc((100% - 2.5rem) / 2);
+    }
+
+    .testimonal-boxes .lower-review-part {
+        justify-content: space-around;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 21.5rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: 1.4rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 900px) {
+
+    /* home start here */
+    .main-heading {
+        font-size: 1.1rem;
+    }
+
+    /* home end here */
+}
+
+@media only screen and (max-width: 853px) {
+
+    /* vegetable product start here */
+    #vegetable-product-cards-part .product-boxes {
+        width: calc((100% - 3rem)/2);
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-slider-portion {
+        margin-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .lower-review-part {
+        justify-content: space-between;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 45rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: 23rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 833px) {
+
+    /* home start here */
+    .main-heading {
+        font-size: 1rem;
+    }
+
+    .second-heading {
+        font-size: 0.88rem;
+    }
+
+    /* home end here */
+}
+
+@media only screen and (max-width: 820px) {
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 43rem;
+    }
+
+    /* testimonals end here */
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* navbar start here */
+    .drop-down-menu {
+        width: 92vw;
+    }
+
+    /* navbar end here */
+
+    /* vegetable product start here */
+    .slider-button-portion {
+        justify-content: center;
+        margin-right: 0;
+        gap: 0.5rem;
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 39.7rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: 20rem;
+    }
+
+    /* testimonals end here */
+
+    /* footer start here */
+    #footer {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footer-left {
+        margin: 0 0 0 2.8rem;
+        align-items: start;
+        text-align: left;
+    }
+
+    .footer-right {
+        justify-content: start;
+        margin: 0 0 0 2.3rem;
+    }
+
+    .footer-right .footer-list {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .logout-btn {
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+
+    /* footer end here */
+}
+
+@media only screen and (max-width: 763px) {
+
+    /* home start here */
+    .main {
+        padding: 10rem 1rem;
+    }
+
+    .main-heading {
+        font-size: 0.97rem;
+    }
+
+    /* home end here */
+}
+
+@media only screen and (max-width: 755px) {
+
+    /* discount start here */
+    .discount-boxes .box-1 {
+        height: 32.6%;
+    }
+
+    /* discount end here */
+}
+
+@media only screen and (max-width: 711px) {
+
+    /* home start here */
+    .main-heading {
+        font-size: 0.9rem;
+    }
+
+    .second-heading {
+        font-size: 0.85rem;
+    }
+
+    .third-heading {
+        font-size: 0.812rem;
+    }
+
+    /* home end here */
+}
+
+@media only screen and (max-width: 703px) {
+
+    /* accordion start here */
+    #second-accordion-part {
+        padding: 0 2.5rem;
+    }
+
+    .accordion-title {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .fa-plus {
+        font-size: 1.4rem;
+    }
+
+    .accordion-content {
+        font-size: 1rem;
+    }
+
+    /* accordion end here */
+}
+
+@media only screen and (max-width: 622px) {
+
+    /* banner start here */
+    .right-banner-part .round-price-tag {
+        width: 6.5rem;
+        height: 6.5rem;
+        top: 0;
+        left: 2.4rem;
+    }
+
+    .round-price-tag h2 {
+        font-size: 4rem;
+        margin-right: -0.2rem;
+    }
+
+    .round-para .upper-round-para {
+        font-size: 1.4rem;
+        margin-left: -1.5rem;
+        margin-right: 1rem;
+    }
+
+    .round-para .lower-round-para {
+        font-size: 1.3rem;
+    }
+
+    /* banner end here */
+}
+
+
+/* confirm box start here */
+@media only screen and (max-width: 550px) {
+    .confirm-box {
+        max-width: 32rem;
+        min-width: 17rem;
+        width: 100%;
+    }
+}
+
+/* confirm box end here */
+
+@media only screen and (max-width: 540px) {
+
+    /* navbar start here */
+    .drop-down-menu {
+        width: 90vw;
+    }
+
+    /* navbar end here */
+
+    /* image slider start here */
+    #section-para {
+        text-align: left;
+    }
+
+    /* image slider end here */
+
+    /* vegetable product start here */
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .lower-review-part {
+        justify-content: space-around;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 25.7rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: 5.9rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 535px) {
+
+    /* image slider start here */
+    .frame {
+        max-width: 28rem;
+        min-width: 14rem;
+        width: 100%;
+        height: 12rem;
+    }
+
+    /* image slider end here */
+
+    /* banner start here */
+    .right-banner-part .round-price-tag {
+        width: 5.5rem;
+        height: 5.5rem;
+        top: 0;
+        left: 2.4rem;
+    }
+
+    .round-price-tag .round-heading {
+        margin-left: 1.9rem;
+    }
+
+    .round-price-tag h2 {
+        font-size: 3.5rem;
+    }
+
+    .round-para .upper-round-para {
+        font-size: 1.3rem;
+        margin-left: -1.5rem;
+        margin-right: 1rem;
+    }
+
+    .round-para .lower-round-para {
+        font-size: 1.2rem;
+    }
+
+    /* banner end here */
+
+    /* subscription start here */
+    .subscription-container {
+        justify-content: center;
+        align-items: center;
+        padding: 0 3rem 0 3rem;
+    }
+
+    .subscription-container .logo-part {
+        margin: 0 0;
+    }
+
+    .input-part {
+        margin: auto;
+    }
+
+    .input-part form {
+        flex-direction: column;
+        gap: 0.6rem;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .input-part input {
+        border-radius: 2rem;
+        margin-left: 0rem;
+    }
+
+    .input-part button {
+        padding: 1.26rem 1.3rem;
+        margin: auto;
+    }
+
+    .social-media-icons {
+        margin-left: 0;
+    }
+
+    /* subscription end here */
+}
+
+@media only screen and (max-width: 485px) {
+
+    /* home start here */
+    #home {
+        height: 32rem;
+    }
+
+    /* home end here */
+
+    /* best product start here */
+    .best-seller-product-cards .best-seller-product-imgs {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    /* best product end here */
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 22rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: 2.2rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 479px) {
+
+    /* banner start here */
+    .right-banner-part .round-price-tag {
+        top: -0.8rem;
+        left: 1.9rem;
+    }
+
+    /* banner end here */
+
+    /* best product start here */
+    .best-seller-product-cards .best-seller-product-imgs {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    /* best product end here */
+
+    /* listing start here */
+    #listing {
+        margin: 6rem 3.5rem 0 3.5rem;
+    }
+
+    .listing-container .listing-boxes {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 17rem;
+        min-width: 14rem;
+        width: 100%;
+    }
+
+    /* listing end here */
+}
+
+@media only screen and (max-width: 446px) {
+
+    /* best product start here */
+    .best-product-seller-lower-part .best-seller-product-cards {
+        justify-content: space-between;
+        padding: 2.5rem 1rem;
+    }
+
+    .best-seller-product-cards .best-seller-product-imgs {
+        width: 9.5rem;
+        height: 9.5rem;
+    }
+
+    /* best product end here */
+}
+
+@media only screen and (max-width: 430px) {
+
+    /* navbar start here */
+    .drop-down-menu {
+        width: 88vw;
+    }
+
+    /* navbar end here */
+
+    /* vegetable product start here */
+    .product-frame {
+        padding: 1rem 2.5rem 0 2.5rem;
+    }
+
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-second-heading {
+        font-size: 1.3rem;
+    }
+
+    .testimonal-frame .testimonal-boxes {
+        padding: 2rem 1rem;
+    }
+
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 20.7rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: 1rem;
+    }
+
+    /* testimonals end here */
+
+    /* primary heading start here */
+    .h-primary-center h2 {
+        font-size: 2rem;
+        padding: 0 0.5rem;
+    }
+
+    /* primary heading end here */
+}
+
+@media only screen and (max-width: 429px) {
+
+    /* banner start here */
+    .right-banner-part .round-price-tag {
+        top: -1.3rem;
+        left: 1.5rem;
+    }
+
+    /* banner end here */
+
+    /* listing start here */
+    #listing {
+        margin: 6rem 3rem 0 3rem;
+    }
+
+    /* listing end here */
+}
+
+@media only screen and (max-width: 425px) {
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .lower-review-part .review-line {
+        width: 20rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: 0.8rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 422px) {
+
+    /* best product start here */
+    .best-product-seller-lower-part .best-seller-product-cards {
+        gap: 0.5rem;
+    }
+
+    .best-seller-product-cards .best-seller-product-imgs {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    /* best product end here */
+}
+
+@media only screen and (max-width: 414px) {
+
+    /* vegetable product start here */
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 19.5rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: 0.1rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 412px) {
+
+    /* vegetable product start here */
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: -0.8rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 406px) {
+
+    /* best product start here */
+    .best-product-seller-lower-part .best-seller-product-cards {
+        gap: 1.2rem;
+    }
+
+    /* best product end here */
+}
+
+@media only screen and (max-width: 405px) {
+
+    /* listing start here */
+    #listing {
+        margin: 6rem 2rem 0 2rem;
+    }
+
+    /* listing end here */
+
+    /* scroll to top button start here */
+    #button {
+        bottom: 0.6rem;
+    }
+
+    .logout-btn {
+        margin-left: 2.7rem;
+    }
+
+    /* scroll to top button end here */
+}
+
+/* confirm box start here */
+@media only screen and (max-width: 400px) {
+    .message-box {
+        padding: 3rem 2rem;
+    }
+}
+
+/* confirm box end here */
+
+@media only screen and (max-width: 391px) {
+
+    /* banner start here */
+    .banner-container .left-banner-part {
+        padding: 0 1.8rem;
+    }
+
+    .left-banner-part h2 {
+        font-size: 2.5rem;
+    }
+
+    .left-banner-part .banner-upper-para {
+        font-size: 2rem;
+        text-align: start;
+    }
+
+    .right-banner-part .round-price-tag {
+        top: -1.6rem;
+        margin-left: -0.7rem;
+    }
+
+    /* banner end here */
+
+    /* best product start here */
+    .inner-best-seller-product-items button {
+        max-width: 8.16rem;
+        min-width: 6rem;
+        width: 100%;
+        padding: 1.1rem 0.5rem;
+        font-size: 0.97rem;
+    }
+
+    /* best product end here */
+}
+
+@media only screen and (max-width: 390px) {
+
+    /* vegetable product start here */
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .lower-testimonal-part {
+        padding: 0 0.5rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 383px) {
+
+    /* home start here */
+    .main {
+        padding: 10rem 0.4rem;
+    }
+
+    /* home end here */
+
+    /* discount start here */
+    .discount-boxes .discount-background-box {
+        height: 34.5%;
+        top: 86.9%;
+    }
+
+    /* discount end here */
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    /* vegetable product start here */
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 18.2rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: -1.4rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 372px) {
+
+    /* best product start here */
+    .best-product-seller-para>p {
+        padding: 0 1.5rem;
+    }
+
+    /* best product end here */
+}
+
+@media only screen and (max-width: 365px) {
+
+    /* home start here */
+    .main-heading {
+        font-size: 0.779rem;
+    }
+
+    .second-heading {
+        font-size: 0.77rem;
+    }
+
+    .third-heading {
+        font-size: 0.75rem;
+    }
+
+    /* home end here */
+
+    /* best product start here */
+    .inner-best-seller-product-items button {
+        font-size: 0.92rem;
+        padding: 1rem 0.5rem;
+    }
+
+    /* best product end here */
+}
+
+@media only screen and (max-width: 360px) {
+
+    /* navbar start here */
+    .drop-down-menu {
+        width: 86vw;
+    }
+
+    /* navbar end here */
+
+    /* discount start here */
+    #discount-container .discount-boxes {
+        height: 24rem;
+    }
+
+    .discount-boxes .discount-show-box {
+        max-width: 15rem;
+        left: 50%;
+        top: 66%;
+    }
+
+    .discount-boxes .box-2 {
+        height: 34.9%
+    }
+
+    /* discount end here */
+
+    /* vegetable product start here */
+    .product-frame {
+        padding: 1rem 2rem 0 2rem;
+    }
+
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+
+    /* accordion start here */
+    #second-accordion-part {
+        padding: 0 2rem;
+    }
+
+    /* accordion end here */
+
+    /* testimonals start here */
+    .testimonal-boxes .review-line {
+        width: 17.2rem;
+    }
+
+    .testimonal-boxes .lower-review-part {
+        gap: 1rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: -0.7rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 355px) {
+
+    /* best product start here */
+    .best-product-stars i {
+        font-size: 0.9rem;
+    }
+
+    .inner-best-seller-product-items .best-product-price {
+        font-size: 1rem;
+    }
+
+    .inner-best-seller-product-items button {
+        font-size: 0.9rem;
+        padding: 1rem 0.3rem;
+    }
+
+    /* best product end here */
+}
+
+@media only screen and (max-width: 350px) {
+
+    /* banner start here */
+    .right-banner-part .round-price-tag {
+        top: -1.9rem;
+        margin-left: -1.2rem;
+    }
+
+    /* banner end here */
+
+    /* listing start here */
+    .listing-container {
+        max-width: 80rem;
+        min-width: 17.5rem;
+        width: 100%;
+    }
+
+    .listing-boxes .listing-icon {
+        font-size: 3rem;
+    }
+
+    .listing-boxes .listing-first-heading {
+        font-size: 1.5rem;
+    }
+
+    .listing-boxes .listing-second-heading {
+        font-size: 1.5rem;
+    }
+
+    /* listing end here */
+}
+
+@media only screen and (max-width: 345px) {
+
+    /* discount start here */
+    #discount-container .discount-boxes {
+        height: 23rem;
+    }
+
+    .discount-boxes .box-2 {
+        height: 35%;
+    }
+
+    .discount-boxes .box-3 {
+        height: 35%;
+    }
+
+    /* discount end here */
+}
+
+@media only screen and (max-width: 344px) {
+
+    /* vegetable product start here */
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 16.2rem;
+    }
+
+    .client-data .client-review-profession {
+        font-size: 0.98rem;
+    }
+
+    .client-review-icon i {
+        font-size: 1.3rem;
+    }
+
+    /* testimonals end here */
+}
+
+@media only screen and (max-width: 340px) {
+
+    /* accordion start here */
+    #second-accordion-part {
+        padding: 0 1.5rem;
+    }
+
+    .upper-accordion-part {
+        padding: 1.5rem 1rem;
+    }
+
+    .accordion-title {
+        font-size: 1rem;
+    }
+
+    .fa-plus {
+        font-size: 1.3rem;
+    }
+
+    .accordion-content {
+        font-size: 0.91rem;
+    }
+
+    /* accordion end here */
+}
+
+@media only screen and (max-width: 330px) {
+
+    /* discount start here */
+    #discount-container .discount-boxes {
+        height: 20rem;
+    }
+
+    .discount-boxes .discount-show-box {
+        max-width: 14rem;
+        height: 6.5rem;
+    }
+
+    .discount-boxes h5 {
+        font-size: 1rem;
+    }
+
+    .discount-boxes h3 {
+        font-size: 1.3rem;
+    }
+
+    .discount-boxes .discount-background-box {
+        height: 36%;
+    }
+
+    .discount-boxes .box-2 {
+        height: 36.5%;
+    }
+
+    /* discount end here */
+
+    /* confirm box start here */
+    .message-box {
+        font-size: 1rem;
+    }
+
+    /* confirm box end here */
+}
+
+@media only screen and (max-width: 325px) {
+
+    /* subscription start here */
+    .input-part input {
+        margin-left: -1.2rem;
+    }
+
+    .input-part button {
+        margin-left: 2.3rem;
+    }
+
+    /* subscription end here */
+}
+
+@media only screen and (max-width: 320px) {
+
+    /* vegetable product start here */
+    .product-frame {
+        padding: 1rem 1.7rem 0 1.7rem;
+    }
+
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+
+    /* testimonals start here */
+    .testimonal-frame .testimonal-boxes {
+        width: 100%;
+    }
+
+    .testimonal-boxes .review-line {
+        width: 15rem;
+    }
+
+    .testimonal-boxes .lower-review-part {
+        gap: 0.5rem;
+    }
+
+    .lower-review-part .client-data {
+        margin-right: -0.9rem;
+    }
+
+    .client-data h4 {
+        font-size: 0.98rem;
+    }
+
+    .client-data .client-review-profession {
+        font-size: 0.98rem;
+    }
+
+    .client-review-icon i {
+        font-size: 1rem;
+    }
+
+    /* testimonals end here */
+
+    /* banner start here */
+    .right-banner-part .round-price-tag {
+        top: -2.05rem;
+        margin-left: -1.4rem;
+    }
+
+    /* banner end here */
+}
+
+@media only screen and (max-width: 319px) {
+
+    /* home start here */
+    .main-heading {
+        font-size: 0.759rem;
+    }
+
+    /* home end here */
+}
+
+@media only screen and (max-width: 312px) {
+
+    /* vegetable product start here */
+    .product-frame {
+        padding: 1rem 1.7rem 0 1.7rem;
+    }
+
+    #vegetable-product-cards-part .product-boxes {
+        width: 100%;
+    }
+
+    /* vegetable product end here */
+}

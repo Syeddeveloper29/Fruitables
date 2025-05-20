@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#preloader{
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  background-color: #eaeaea;
+}
+
+.dots-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  gap: 1rem;
+}
+
+.dots-loader div{
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background-color: #42a01f;
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+
+.dots-loader div:nth-child(1){
+  animation-delay: -0.32s;
+}
+
+.dots-loader div:nth-child(2){
+  animation-delay: -0.16s;
+}
+
+.dots-loader div:nth-child(3){
+  animation-delay: 0;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+
+  40% {
+    transform: scale(1);
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 93rem;
+  min-width: 19.5rem;
+  height: 42rem;
+  background: rgba(0, 0, 0, 0.1) url("/images/registration image/bacground.png")
+    no-repeat center/cover;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  position: relative;
+  background-blend-mode: darken;
+  display: none;
+}
+
+#form-box {
+  width: 90%;
+  max-width: 31rem;
+  min-width: 19.5rem;
+  height: 100%;
+  max-height: 37.3rem;
+  min-height: 31rem;
+  border: 0.1rem solid #fff;
+  background: #fff;
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+  box-shadow: -0.1rem 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+  padding: 1rem 3.5rem 2rem 3.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+#form-box .heading-1{
+  color: #e71717;
+  font-size: 1.97rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+#form-box .heading {
+  text-align: center;
+  color: #008000;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+#form-box .line {
+  width: 2rem;
+  height: 0.2rem;
+  background: #008000;
+  margin: 0.8rem auto;
+}
+
+.form-group {
+  height: 10rem;
+  margin-top: 2rem;
+}
+
+.input-field {
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  margin: 1.4rem 0;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 0.25rem;
+}
+
+.input-field:focus-within {
+  outline: none;
+  border: 0.1rem solid #777;
+}
+
+.form-group input {
+  width: 100%;
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 1.1rem 0.2rem;
+}
+
+.name-field {
+  position: relative;
+}
+
+.form-group .name-error {
+  position: absolute;
+  top: 3.5rem;
+  left: 0.2rem;
+  color: #ff0000;
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+.email-field {
+  position: relative;
+}
+
+.form-group .email-error {
+  position: absolute;
+  top: 3.5rem;
+  left: 0.2rem;
+  color: #ff0000;
+  font-size: 0.75rem;
+  text-align: left;
+}
+
+.password-field {
+  position: relative;
+}
+
+.form-group .password-error {
+  position: absolute;
+  top: 3.5rem;
+  color: #ff0000;
+  font-size: 0.75rem;
+  left: 0.2rem;
+  text-align: left;
+}
+
+.icons {
+  margin-left: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+.form-group i {
+  color: #999;
+  margin: 0 1.2rem;
+  text-align: center;
+}
+
+.form-group .first-para,
+.form-group .second-para {
+  font-size: 0.82rem;
+  text-align: left;
+  padding-left: 0.4rem;
+  padding-top: 0.8rem;
+}
+
+.form-group .first-para a,
+.form-group .second-para a {
+  text-decoration: none;
+  color: #008000;
+  cursor: pointer;
+}
+
+.form-group .first-para {
+  margin-top: 1rem;
+}
+
+.second-para {
+  margin-top: -0.6rem;
+}
+
+.form-group .btn-field {
+  display: flex;
+  margin-top: 1.7rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.btn-field .btn {
+  background-color: #008000;
+  padding: 0.7rem 3rem;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-field .btn:hover {
+  background-color: #045a04;
+}
+
+.successful-notification {
+  position: absolute;
+  top: 3rem;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 19rem;
+  min-width: 18rem;
+  height: 18rem;
+  border: 0.1rem solid #fff;
+  border-radius: 0.4rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 0 1.2rem;
+  outline: none;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease-in-out;
+  visibility: hidden;
+}
+
+.successful-notification img {
+  width: 5rem;
+  border-radius: 50%;
+  margin-top: -2.5rem;
+}
+
+.successful-notification h2 {
+  margin-top: 1.5rem;
+}
+
+.successful-notification p {
+  margin-top: 1.2rem;
+}
+
+.successful-notification button {
+  width: 85%;
+  margin-top: 2rem;
+  padding: 0.5rem 0;
+  font-size: 1.05rem;
+  background-color: #5dd830;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.successful-notification button:hover {
+  background-color: #42a01f;
+}
+
+.invalid-notification {
+  position: absolute;
+  top: 3rem;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 19rem;
+  min-width: 18rem;
+  height: 18rem;
+  border: 0.1rem solid #fff;
+  border-radius: 0.4rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 0 1.2rem;
+  outline: none;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  transition: all 0.7s ease-in-out;
+  visibility: hidden;
+}
+
+.invalid-notification img {
+  width: 5.5rem;
+  border-radius: 50%;
+  margin-top: -2.5rem;
+}
+
+.invalid-notification h2 {
+  margin-top: 1.5rem;
+}
+
+.invalid-notification p {
+  margin-top: 1.2rem;
+}
+
+.invalid-notification button {
+  width: 85%;
+  margin-top: 2rem;
+  padding: 0.5rem 0;
+  font-size: 1.05rem;
+  background-color: #fe0101;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.invalid-notification button:hover {
+  background-color: #d40808;
+}
+
+/* for responsivness */
+
+@media only screen and (max-width: 430px) {
+  #form-box{
+    padding: 1rem 2rem 2rem 2rem;
+  }
+}

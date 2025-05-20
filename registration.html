@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- No Follow -->
+    <meta name="robots" content="noindex, nofollow">
+    <!-- No Follow -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylesheets -->
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/images/favicon icon/favicon.png" type="image/x-icon">
+    <!-- Favicon -->
+
+    <!-- Title -->
+    <title>Create Account | Join Our Healthy Food Community</title>
+    <!-- Title -->
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="dots-loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <main class="container" id="main-content">
+        <div id="form-box">
+            <h2 class="heading-1">Welcome To Fruitables</h2>
+            <h2 class="heading">Sign Up</h2>
+            <div class="line"></div>
+            <div class="form-group">
+
+                <form action="#" id="form">
+
+                    <div class="input-field name-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" class="username" id="username-box" name="name" autocomplete="off"
+                            placeholder="Username">
+                        <p class="name-error"></p>
+                    </div>
+
+                    <div class="input-field email-field">
+                        <i class="fa-solid fa-at"></i>
+                        <input type="email" class="email" id="email-box" name="email" autocomplete="off"
+                            placeholder="Email">
+                        <p class="email-error"></p>
+                    </div>
+
+                    <div class="input-field password-field">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" class="password" id="password-box" autocomplete="off" name="password"
+                            placeholder="Password">
+                        <div class="icons">
+                            <i class="fa-solid fa-eye icon"></i>
+                            <p class="password-error"></p>
+                        </div>
+                    </div>
+
+                    <p class="first-para"><span class="text">Password Suggestion </span><a id="password-generator">Click
+                            here</a></p>
+                    <p class="second-para"><span class="second-text">Already have an account?</span> <a
+                            href="signin.html">Sign In</a></span></p>
+                    <!-- text para end here -->
+
+
+                    <div class="btn-field">
+                        <button type="submit" class="btn">Sign Up</button>
+                    </div>
+                    <!-- button field end here -->
+                </form>
+                <!-- form end here -->
+            </div>
+            <!-- form group end here -->
+        </div>
+        <!-- form box end here -->
+
+        <div class="successful-notification">
+            <img src="/images/tick image/tick.png" alt="">
+
+            <h2>Congratulations!</h2>
+            <p>You have successfully registered with us. Thanks!</p>
+            <button type="button" class="successful-button">Ok</button>
+        </div>
+        <!-- success notification end here -->
+
+        <div class="invalid-notification">
+            <img src="/images/tick image/cross.png" alt="">
+
+            <h2>UH-No!</h2>
+            <p>This email is already registered. Please try again!</p>
+            <button type="button" class="invalid-button">Ok</button>
+        </div>
+        <!-- success notification end here -->
+    </main>
+
+    <script src="/registration.js"></script>
+</body>
+
+</html>

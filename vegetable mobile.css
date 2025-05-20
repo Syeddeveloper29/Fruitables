@@ -1,0 +1,579 @@
+:root {
+    --bg-body: #141414;
+    --bg-primary: #000000;
+    --text-primary: #f1f0f0;
+    --red-clr: #e71717;
+    --hover-clr: #b60f0f;
+    --content-clr: #ce3e3e;
+}
+
+@media only screen and (max-width: 1196px) {
+
+    /* footer start here */
+    #footer {
+        flex-direction: column;
+        height: auto;
+        gap: 1.2rem;
+        padding: 0.5rem 0;
+
+    }
+
+    #footer>div:nth-child(1) {
+        order: 2;
+    }
+
+    #footer>div:nth-child(3) {
+        order: 3;
+    }
+
+    .footer-left {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer-left p {
+        text-align: center;
+    }
+
+    .footer-right {
+        margin: 0 3rem;
+    }
+
+    .footer-list>li {
+        display: flex;
+        margin: 0rem 0.6rem;
+
+    }
+
+    .logout-btn {
+        margin-right: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* footer end here */
+}
+
+@media only screen and (max-width: 1178px) {
+    .nav-right {
+        margin-right: 7rem;
+    }
+}
+
+@media only screen and (max-width: 1142px) {
+
+    /* subscription container start here */
+    .subscription-container .logo-part {
+        margin: 0 1rem;
+    }
+
+    .input-part input {
+        width: 26rem;
+    }
+
+    /* subscription container end here */
+}
+
+@media only screen and (max-width: 1100px) {
+    .nav-right {
+        margin-right: 5rem;
+    }
+
+}
+
+@media only screen and (max-width: 1045px) {
+    #navbar {
+        display: flex;
+        height: auto;
+        max-height: 4.5rem;
+        text-align: center;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: auto;
+        padding: 1rem 0;
+        overflow: hidden;
+        transition: max-height 0.9s linear;
+    }
+
+    #navbar.nav-open {
+        max-height: 50rem;
+    }
+
+    .nav-left {
+        margin-left: 2rem;
+        text-align: center;
+        margin-top: 0.2rem;
+    }
+
+    .middle-nav {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .nav-right {
+        align-items: start;
+        margin: 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: start;
+    }
+
+    .nav-list>li {
+        margin: 0rem 2rem;
+    }
+
+    #drop-down {
+        margin-top: 0.3rem;
+    }
+
+    .drop-down-menu {
+        top: 9rem;
+        left: 1.9rem;
+        width: 100%;
+        width: 94vw;
+        text-align: start;
+        border-radius: 0.4rem;
+    }
+
+    #contact-link {
+        transition: all 0.4s ease-in-out;
+    }
+
+    #toggle-btn {
+        margin-left: 2rem;
+    }
+
+    #hamburger {
+        position: absolute;
+        right: -1rem;
+        top: 1.7rem;
+        display: block;
+        color: var(--red-clr);
+    }
+
+    .fruit-container {
+        width: 100%;
+        padding: 0 3rem 2rem 3rem;
+    }
+
+    .upper-food-part .upper-food-part-boxes {
+        flex-direction: column;
+        gap: 3rem;
+        padding: 0;
+    }
+
+    .upper-food-part-boxes .search-text input {
+        max-width: 65rem;
+        min-width: 13rem;
+        width: 100%;
+    }
+
+    .upper-food-part-boxes .select-filter {
+        max-width: 65rem;
+        min-width: 14rem;
+        width: 100%;
+        padding: 1rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 988px) {
+    .imp-food-part {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .middle-food-part {
+        max-width: 62rem;
+        min-width: 15rem;
+        width: 100%;
+    }
+
+    .first-middle-part .count-items {
+        padding-right: 0.2rem;
+    }
+
+    .range {
+        padding-right: 0.26rem;
+    }
+
+    .range input {
+        max-width: 62rem;
+        min-width: 15rem;
+        width: 100%;
+    }
+
+    .first-featured-product {
+        justify-content: flex-start;
+        gap: 1.5rem;
+    }
+
+    .heading-middle-part .featured-button {
+        max-width: 62rem;
+        min-width: 15rem;
+        width: 100%;
+    }
+
+    .featured-button a {
+        max-width: 62rem;
+        min-width: 15rem;
+        width: 100%;
+        margin-right: 0.2rem;
+    }
+
+    .heading-middle-part .fruit-banner {
+        margin-top: 3rem;
+        max-width: 62rem;
+        min-width: 15rem;
+        width: 100%;
+    }
+
+    .fruit-banner img {
+        margin-right: 0.25rem;
+    }
+
+    .fruit-banner .banner-text {
+        top: 50%;
+        right: -7%;
+        transform: translate(-60%, -60%);
+    }
+
+    .lower-food-part {
+        padding: 0;
+    }
+
+    .inside-product.single-item {
+        position: relative;
+        left: auto;
+        top: auto;
+        margin-left: auto;
+        transform: none;
+    }
+
+    #product-cards-part {
+        margin-top: 2rem;
+    }
+
+    #product-cards-part .product-boxes {
+        max-width: 20.3rem;
+        min-width: 18rem;
+        width: 100%;
+    }
+
+    .no-match {
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 950px) {
+
+    /* subscription container start here */
+    .subscription-container {
+        flex-direction: column;
+        gap: 1.3rem;
+        justify-content: start;
+        align-items: start;
+        padding: 0 5rem 0 3rem;
+    }
+
+    .input-part {
+        width: 100%;
+    }
+
+    .input-part form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .input-part input {
+        flex: 1;
+        min-width: 16.25rem;
+        width: 100%;
+    }
+
+    .social-media-icons {
+        margin-left: auto;
+    }
+
+    /* subscription container end here */
+}
+
+@media only screen and (max-width: 768px) {
+    .fruit-banner .banner-text {
+        right: -9%;
+    }
+
+    /* footer start here */
+    #footer {
+        justify-content: start;
+        align-items: start;
+    }
+
+    .footer-left {
+        margin: 0 0 0 2.8rem;
+        align-items: start;
+        text-align: left;
+    }
+
+    .footer-right {
+        justify-content: start;
+        margin: 0 0 0 2.3rem;
+    }
+
+    .footer-right .footer-list {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .drop-down-menu {
+        width: 92vw;
+    }
+
+    .logout-btn {
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+
+    /* footer end here */
+}
+
+@media only screen and (max-width: 767px) {
+    #product-cards-part .product-boxes {
+        max-width: 23rem;
+        min-width: 18rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .fruit-banner .banner-text {
+        right: -14%;
+    }
+}
+
+/* confirm box start here */
+@media only screen and (max-width: 550px) {
+    .confirm-box {
+        max-width: 32rem;
+        min-width: 17rem;
+        width: 100%;
+    }
+}
+
+/* confirm box start here */
+
+@media only screen and (max-width: 540px) {
+    .drop-down-menu {
+        width: 90vw;
+    }
+
+    .fruit-banner .banner-text {
+        right: -18%;
+    }
+
+    #product-cards-part .product-boxes {
+        max-width: 23rem;
+        min-width: 18rem;
+        width: 100%;
+    }
+
+    .no-match h3 {
+        font-size: 1.8rem;
+    }
+
+    .paggination-btns button {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+
+    /* subscription container start here */
+    .subscription-container {
+        justify-content: center;
+        align-items: center;
+        padding: 0 3rem 0 3rem;
+    }
+
+    .subscription-container .logo-part {
+        margin: 0 0;
+    }
+
+    .input-part {
+        margin: auto;
+    }
+
+    .input-part form {
+        flex-direction: column;
+        gap: 0.6rem;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .input-part input {
+        border-radius: 2rem;
+        margin-left: 0rem;
+    }
+
+    .input-part button {
+        padding: 1.26rem 1.3rem;
+        margin: auto;
+    }
+
+    .social-media-icons {
+        margin-left: 0;
+    }
+
+    /* subscription container end here */
+}
+
+@media only screen and (max-width: 480px) {
+    .fruit-banner .banner-text {
+        right: -20%;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .fruit-container {
+        padding: 0 2rem 2rem 2rem;
+    }
+
+    .fruit-banner .banner-text {
+        right: -15%;
+    }
+
+    .banner-text #text-1 {
+        font-size: 1.5rem;
+    }
+
+    .banner-text #text-2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 454px) {
+    .inside-child {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .drop-down-menu {
+        width: 88vw;
+    }
+
+    .food-upper-part-heading h2 {
+        font-size: 2rem;
+    }
+
+    .no-match h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 405px) {
+
+    /* scroll to top button start here */
+    #button {
+        bottom: 0.6rem;
+    }
+
+    .logout-btn {
+        margin-left: 2.7rem;
+    }
+
+    /* scroll to top button end here */
+}
+
+@media only screen and (max-width: 400px) {
+    .fruit-banner .banner-text {
+        right: -18%;
+    }
+
+    .paggination-btns button {
+        width: 2.1rem;
+        height: 2.1rem;
+    }
+
+    /* confirm box start here */
+    .message-box {
+        padding: 3rem 2rem;
+    }
+
+    /* confirm box end here */
+}
+
+@media only screen and (max-width: 360px) {
+    .drop-down-menu {
+        width: 86vw;
+    }
+
+    .fruit-banner .banner-text {
+        right: -22%;
+    }
+
+    .no-match h3 {
+        font-size: 1.5rem;
+    }
+
+    .paggination-btns {
+        gap: 0.3rem;
+    }
+
+    .paggination-btns button {
+        width: 1.9rem;
+        height: 1.9rem;
+    }
+}
+
+@media only screen and (max-width: 344px) {
+    .no-match h3 {
+        font-size: 1.33rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+
+    /* confirm box start here */
+    .message-box {
+        font-size: 1rem;
+    }
+
+    /* confirm box end here */
+}
+
+@media only screen and (max-width: 325px) {
+
+    /* subscription container start here */
+    .input-part input {
+        margin-left: -1.2rem;
+    }
+
+    .input-part button {
+        margin-left: 2.3rem;
+    }
+
+    /* subscription container end here */
+}
+
+@media only screen and (max-width: 320px) {
+    .fruit-banner .banner-text {
+        right: -24%;
+    }
+}
+
+@media only screen and (max-width: 319px) {
+    .food-upper-part-heading {
+        margin-left: -0.28rem;
+    }
+}
